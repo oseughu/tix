@@ -1,6 +1,6 @@
 # Tix Ticketing API
 
-This api provides food order and delivery services. It is a RESTful API built with NodeJS, Express and MongoDB. Tests were written with mocha, chai and supertest.
+This api provides event and ticket creation services. It is a REST API built with NodeJS, Express and MongoDB. Tests were written with mocha, chai and supertest.
 
 ## Steps to run this project
 
