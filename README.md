@@ -4,7 +4,7 @@ This api provides event and ticket creation services. It is a REST API built wit
 
 ## Steps to run this project
 
-1. Run `git clone https://github.com/oseughu/tix.git` to clone this repository to your local machine.
+1. On your terminal, run `git clone https://github.com/oseughu/tix.git` to clone this repository to your local machine.
 2. Run `npm i` command to install the dependencies.
 3. Run `npm i -D` command to install the dev dependencies.
 4. Run `npm test` command to run the tests.
