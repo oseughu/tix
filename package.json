@@ -15,7 +15,7 @@
   "scripts": {
     "start": "node src/app",
     "dev": "nodemon src/app",
-    "test": "mocha --timeout 100000 src/tests"
+    "test": "mocha --timeout 30000 src/tests"
   },
   "keywords": [],
   "author": "Ose Ughu",
