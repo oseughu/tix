@@ -1,0 +1,38 @@
+{
+  "name": "tix",
+  "version": "1.0.0",
+  "description": "tix backend engineer assessment",
+  "main": "src/app.js",
+  "type": "module",
+  "imports": {
+    "#src/*": "./src/*.js",
+    "#utils/*": "./src/utils/*.js",
+    "#controllers/*": "./src/controllers/*.js",
+    "#models/*": "./src/models/*.js",
+    "#routes": "./src/routes/index.js",
+    "#routes/*": "./src/routes/*.js"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "mocha --timeout 100000 ./src/tests"
+  },
+  "keywords": [],
+  "author": "Ose Ughu",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.4.1",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.18",
+    "supertest": "^6.2.3"
+  }
+}
