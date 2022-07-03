@@ -14,7 +14,7 @@ describe('Users', () => {
     })
   })
 
-  it('should list a user on /user/<userId> GET', (done) => {
+  it('should list a user on /user/<id> GET', (done) => {
     const newUser = new User(userPayload)
 
     newUser.save().then(() => {
