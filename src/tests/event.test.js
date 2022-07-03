@@ -51,7 +51,6 @@ describe('Events', () => {
         .put(`/event/${newEvent.testId}`)
         .send(editedEventPayload)
         .set('Accept', 'application/json')
-        .expect('Content-Type', /json/)
         .expect(204, done)
     })
   })
