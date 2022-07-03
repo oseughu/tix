@@ -99,7 +99,7 @@ export const editEvent = async (req, res) => {
       { new: true }
     )
 
-    res.json(updatedEvent)
+    res.status(204).json(updatedEvent)
   } catch (err) {
     console.log(err)
     res.status(500).json('Error editing event.')
