@@ -43,7 +43,7 @@ describe('Events', () => {
     })
   })
 
-  it('should update an event on /event/<id> PUT', (done) => {
+  it('should edit an event on /event/<id> PUT', (done) => {
     const newEvent = new Event(eventPayload)
 
     newEvent.save().then(() => {
