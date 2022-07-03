@@ -43,7 +43,7 @@ describe('Users', () => {
       .expect(201, done)
   })
 
-  it('should login a user and return JWT Token on /login POST', (done) => {
+  it('should login a user and return JWT on /login POST', (done) => {
     const newUser = new User(userPayload)
 
     newUser.save().then(() => {
